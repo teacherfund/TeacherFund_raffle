@@ -1,0 +1,19 @@
+{
+  "name": "raffle_teacherfund",
+  "version": "1.0.0",
+  "description": "Raffle alexa skill for teacherfund nonprofit org",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "fix": "standard --fix",
+    "lint": "standard"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "ask-sdk-core": "^2.4.0"
+  },
+  "devDependencies": {
+    "standard": "^12.0.1"
+  }
+}
