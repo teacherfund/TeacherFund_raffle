@@ -33,8 +33,10 @@ If you are interested in writing code to fix issues, read the below to understan
 The website is written in a javascript [Lambda](https://aws.amazon.com/lambda/) using [ask-sdk-core](https://github.com/alexa/alexa-skills-kit-sdk-for-nodejs/tree/2.0.x/ask-sdk-core). 
 
 ### Directory Structure
-- **index.js**
-  - _Main alexa skill intent handlers file_
+- **alexa_skill**
+  - _Main alexa skill intent handlers and package to be uploaded to lambda_
+_ **server**
+  - _Custom server to handle raffle implementation_
 
 ### Local Development Environment
 TODO
