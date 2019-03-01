@@ -10,7 +10,7 @@ This repository contains the code for the alexa fundraising skill.
 **This project is in very early development and as such, the structure/design is subject to change significantly and often.**
 
 ## Contributing
-We welcome any contributions to this project! If you're interested in fixing bugs or implementing new features, please see the document [How to Contribute](https://github.com/teacherfund/raffle_skill/blob/master/CONTRIBUTING.md).
+We welcome any contributions to this project! If you're interested in fixing bugs or implementing new features, please see the document [How to Contribute](https://github.com/teacherfund/TeacherFund_raffle/blob/master/CONTRIBUTING.md).
 
 Looking for help or contributions regarding a [Google Home Action](https://developers.google.com/actions/)
 
