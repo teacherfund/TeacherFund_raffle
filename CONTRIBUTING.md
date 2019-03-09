@@ -34,9 +34,7 @@ The website is written in a javascript [Lambda](https://aws.amazon.com/lambda/) 
 
 ### Directory Structure
 - **alexa_skill**
-  - _Main alexa skill intent handlers and package to be uploaded to lambda_
-- **server**
-  - _Custom server to handle raffle implementation_
+  - _Alexa skill intent handlers and package to be uploaded to lambda_
 
 ### Local Development Environment
 TODO
