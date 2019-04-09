@@ -1,0 +1,50 @@
+{
+  "version": "1.0",
+  "type": "CONSUMABLE",
+  "referenceName": "Five_Entries_Pack",
+  "publishingInformation": {
+    "locales": {
+      "en-US": {
+        "name": "Five Entries Pack",
+        "smallIconUri": "<TBD>",
+        "largeIconUri": "<TBD>",
+        "summary": "THIS IS THE SUMMARY FOR BUYING ENTRIES",
+        "description": "THIS IS THE DESCRIPTION  FOR BUYING ENTRIES",
+        "examplePhrases": [
+          "TODO: REPLACE THIS WITH SAMPLE UTTERANCE FOR HOW USERS WILL BUY OR INVOKE THIS PRODUCT - 'Alexa, buy product name'  Or 'Alexa, play product name'"
+        ],
+        "keywords": [
+          "TODO: REPLACE THIS WITH ARRAY OF KEYWORDS TO BE USED FOR SEARCH INDEXING THE PRODUCT"
+        ],
+        "customProductPrompts": {
+          "purchasePromptDescription": "This will give you five entries to a raffle of your choice. ",
+          "boughtCardDescription": "You have successfully purchased the five entries pack! "
+        }
+      }
+    },
+    "distributionCountries": [
+      "US"
+    ],
+    "pricing": {
+      "amazon.com": {
+        "releaseDate": "2018-08-28",
+        "defaultPriceListing": {
+          "price": 2.99,
+          "currency": "USD"
+        }
+      }
+    },
+    "taxInformation": {
+      "category": "SOFTWARE"
+    }
+  },
+  "privacyAndCompliance": {
+    "locales": {
+      "en-US": {
+        "privacyPolicyUrl": "http://localhost/privacy"
+      }
+    }
+  },
+  "testingInstructions": "This should increment the total count of usable entries for a user by five.",
+  "purchasableState": "PURCHASABLE"
+}

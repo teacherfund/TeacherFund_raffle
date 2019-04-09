@@ -1,0 +1,45 @@
+{
+    "type": "APL",
+    "version": "1.0",
+    "theme": "dark",
+    "import": [],
+    "resources": [
+        {
+            "description": "Main images",
+            "strings": {
+                "logo": "https://raw.githubusercontent.com/teacherfund/TeacherFund_next/master/static/images/Logo.png"
+            }
+        }
+    ],
+    "styles": {},
+    "layouts": {},
+    "mainTemplate": {
+        "parameters": [
+            "payload"
+        ],
+        "items": [
+            {
+                "type": "Container",
+                "width": "100vw",
+                "height": "100vh",
+                "direction": "row",
+                "items": [
+                    {
+                        "type": "Frame",
+                        "width": "100vw",
+                        "height": "100vh",
+                        "backgroundColor": "white",
+                        "position": "absolute"
+                    },
+                    {
+                        "type": "Image",
+                        "source": "@logo",
+                        "scale": "best-fit",
+                        "width": "100vw",
+                        "height": "100vh"
+                    }
+                ]
+            }
+        ]
+    }
+}
